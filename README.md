@@ -1,2 +1,8 @@
-# Combining_TwitterBot_and_RedditBot
-A python script that uses both the Twitter API and the Reddit API for tweeting about news
+# How does it work? 
+From the "worldnews" subreddit, RedditBot pulls post names and URLs from the stream and sends the data to TwitterBot 
+TwitterBot gets the data and tweets it. 
+
+# How to run the bots? 
+```
+python redditbot.py | python twitterbot.py
+```
